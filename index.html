@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>Mobile Case Customization Preview</title>
+  <link href="styles.css" rel="stylesheet"></head>
+  <body>
+    <div class="container"></div>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
+    
+    <div class="control">
+      <ul class="colorList">
+        <li>Color:</li>
+        <li class="color red" onclick="setColor('red')"><span>Red</span></li>
+        <li class="color green" onclick="setColor('green')">Green</li>
+        <li class="color orange" onclick="setColor('orange')">Orange</li>
+        
+        <hr/>
+
+        <li>Material:</li>
+        <li class="color plastic" onclick="setMaterial('plastic')">Plastic</li>
+        <li class="color metal" onclick="setMaterial('metal')">Metal</li>
+        <li class="color transparent" onclick="setMaterial('transparent')">Transparent</li>
+      </ul>
+    </div>
+  <script type="text/javascript" src="bundle.js"></script></body>
+</html>
